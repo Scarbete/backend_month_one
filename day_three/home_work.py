@@ -5,7 +5,6 @@
 count = 1
 
 while count < 21:
-    print(count)
     count += 1
 
     if count % 2 == 0:
