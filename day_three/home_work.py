@@ -53,3 +53,5 @@ while countdown >= 1:
 print('Обратный отсчет (for)')
 for i in range(10, 0, -1):
     print(i)
+
+# print(list(range(10, 0, -1)))

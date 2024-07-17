@@ -58,7 +58,9 @@ class ZodiacNames:
     Sagittarius = 'Стрелец'
     Capricorn = 'Козерог'
 
-
+# zodiac = {
+#     "pisces": "",
+# }
 class RangeOfDaysOfZodiacSigns:
     Aquarius = (  # Водолей
             month == Months.January
