@@ -1,0 +1,1 @@
+name first * second = answer (rigth_answer) seconds status
