@@ -58,9 +58,7 @@ class ZodiacNames:
     Sagittarius = 'Стрелец'
     Capricorn = 'Козерог'
 
-# zodiac = {
-#     "pisces": "",
-# }
+
 class RangeOfDaysOfZodiacSigns:
     Aquarius = (  # Водолей
             month == Months.January
@@ -136,7 +134,7 @@ class RangeOfDaysOfZodiacSigns:
     )
 
 
-if day >= 0 and month >= 0:
+if day > 0 and month > 0 and isinstance(day, int) and isinstance(month, int):
     if RangeOfDaysOfZodiacSigns.Aquarius:
         print(ZodiacNames.Aquarius)
     elif RangeOfDaysOfZodiacSigns.Pisces:
@@ -165,3 +163,4 @@ if day >= 0 and month >= 0:
         print('Вы ввели не корректную дату')
 else:
     print('Не коректная дата')
+

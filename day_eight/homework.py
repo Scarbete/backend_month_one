@@ -51,7 +51,7 @@ def binary_search_for_number():
     result_file_name = 'hw_results.txt'
 
     while True:
-        quess = ( low + high ) // 2
+        quess = (low + high) // 2
         attempt += 1
         attempt_list.append(quess)
         print(f'Твое число {quess}? (да,больше,меньше)')
@@ -62,7 +62,7 @@ def binary_search_for_number():
                 file.write(f'Загаданное число: {quess}\n')
                 file.write(f'Количевство попыток: {attempt}\n')
                 file.write(f'Список попыток: {attempt_list}\n')
-            print(f'Число угадано! Результаты сохранены в {result_file_name}')
+                print(f'Число угадано! Результаты сохранены в {result_file_name}')
             break
         elif response == 'больше':
             low = quess + 1
@@ -75,7 +75,7 @@ def binary_search_for_number():
                 print('Не корректный диапазон, начните все с начала!')
                 break
         else:
-             print('\nНеверный ввод. Пожалуйста, введите да, больше или меньше...')
+            print('\nНеверный ввод. Пожалуйста, введите да, больше или меньше...')
 
 
 binary_search_for_number()

@@ -71,3 +71,17 @@ print('even_nums:', even_nums)
 # Пример использования filter для получения нечетных чисел
 odd_nums = list(filter(lambda num: num % 2 != 0, my_list))
 print('odd_nums:', odd_nums)
+
+
+# def test_kwargs(**kwargs):
+#     print(kwargs)
+#
+#
+# test_kwargs(name='Kutman', age=20)
+#
+#
+# def test_args(*args):
+#     print('args', args)
+#
+#
+# test_args(1,31,23,21,3,123,21,31)
